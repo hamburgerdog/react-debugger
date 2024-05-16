@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./packages",
+    "checkJs": false,
+    "alwaysStrict": false
+  },
+  "include": [
+    "./packages"
+  ],
+}

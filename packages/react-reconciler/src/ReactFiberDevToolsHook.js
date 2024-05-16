@@ -41,8 +41,6 @@ import {
 import {setSuppressWarning} from 'shared/consoleWithStackDev';
 import {disableLogs, reenableLogs} from 'shared/ConsolePatchingDev';
 
-declare const __REACT_DEVTOOLS_GLOBAL_HOOK__: Object | void;
-
 let rendererID = null;
 let injectedHook = null;
 let injectedProfilingHooks: DevToolsProfilingHooks | null = null;
